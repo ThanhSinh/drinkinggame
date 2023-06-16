@@ -1,36 +1,27 @@
 .bai {
-    /* Các thuộc tính CSS khác */
     position: fixed;
-    width: 500px;
+    width: 400px;
     left: 50%;
-    top: 50px;
-    transform: translateX(-51%);
+    top: 50%;
+    transform: translate(-50%, -50%) rotateY(0);
     background: linear-gradient(40deg, #4caf5014, #ffeb3b17);
     border-radius: 10px;
+   
 }
- button{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px;
-gap: 10px;
 
-position: absolute;
-width: 500px;
 
-left: 33%;
-
-top: 350px;
-
-/* Theme/1 */
-
-background: #ED712E;
-border-radius: 8px;
+button {
+    position: fixed;
+    width: 400px;
+    height: 58px;
+    left: 50%;
+    bottom: 150px;
+    transform: translateX(-50%);
+    background: #ED712E;
+    border-radius: 8px;
 }
-.hidden {
-    display: none;
-}
+
+
 #luatchoi {
     font-size: 30px;
 }
@@ -46,9 +37,10 @@ span{
 }
 .rotate-form {
     animation: rotate 3s;
+    animation-fill-mode: forwards; /* Giữ lại trạng thái cuối của animation */
 }
 
 @keyframes rotate {
-    0% { transform: translateX(-100%); opacity: 0; }
-    100% { transform: translateX(0%); opacity: 1; }
+    0% { transform: translate(-50%, -50%) rotateY(-180deg); opacity: 0; }
+    100% { transform: translate(-50%, -50%) rotateY(0deg); opacity: 1; }
 }
