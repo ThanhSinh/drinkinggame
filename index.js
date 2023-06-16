@@ -336,6 +336,12 @@ function randomNumber() {
         luatchoi.style.display = 'none';
         content.style.display = 'none';
     }
+
+
+
+
+
+    
     var form = document.querySelector('.bai');
     form.classList.add('rotate-form');
     setTimeout(function() {
