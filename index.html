@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form class="bai">
+        <div id="note" style="box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px ;box-sizing: inherit; margin-bottom: 10px; padding: 20px; box-sizing: inherit; line-height: 1.6em; padding: 15px;">
+            <span id="luatchoi" style="box-sizing: inherit; font-weight: 700; line-height: 2.0em;"><span style="color: black;">&nbsp;Luật chơi:</span></span><br />
+            <span id="content">
+                Các thành viên sẽ ngồi xếp thành vòng tròn, lần lượt bốc từng lá bài lên và làm theo nội dung lá bài yêu cầu. Trên mỗi lá bài sẽ là những “fun fact” dự đoán về bạn hoặc những thử thách “xoắn não” mà bạn phải vượt qua. 50 lá bài này sẽ ẩn chứa những cú twist bất ngờ, nếu không làm được, bạn sẽ nhận 1 hình phạt đó là uống rượu hoặc bia.
+            </span>
+            <span id="bai1" class="hidden" >» Địa chỉ email của bạn được bảo mật.</span>
+            <span id="bai2" class="hidden" >» Mục không có dấu sao (*) là không bắt buộc.</span>
+            <span id="bai3" class="hidden" >» Bình luận bằng tiếng Việt có dấu nếu có thể.</span>
+            <span id="bai4" class="hidden"> Uống một ngụm nếu bạn đã từng lái xe khi bạn đã uống quá mức.</span>
+            <span id="bai5" class="hidden"> Chia sẻ câu chuyện về lần cuối cùng bạn đã xấu hổ khi say rượu.</span>
+            <span id="bai6" class="hidden"> Uống một ngụm nếu bạn đã từng gửi tin nhắn hỗn hào khi say rượu.</span>
+            <span id="bai7" class="hidden"> Đổi chỗ với người chơi bên cạnh bạn.</span>
+            <span id="bai8" class="hidden"> Uống một ngụm nếu bạn từng điều khiển một trò chơi uống rượu trước đây.</span>
+            <span id="bai9" class="hidden"> Khiến mọi người cười bằng cách làm một điệu nhảy hài hước.</span>
+            <span id="bai10" class="hidden"> Uống hai ngụm nếu bạn đã từng tham gia một buổi karaoke khi say rượu.</span>
+            <span id="bai11" class="hidden"> Đặt một câu hỏi tình dục cho người chơi bên phải của bạn.</span>
+            <span id="bai12" class="hidden"> Uống một ngụm nếu bạn từng có một cuộc tình ngắn ngủi.</span>
+            <span id="bai13" class="hidden"> Gọi một người bạn và thực hiện một lời thú nhận trước mặt mọi người.</span>
+            <span id="bai14" class="hidden"> Uống một ngụm nếu bạn từng tham gia một trò chơi uống rượu trực tuyến.</span>
+            <span id="bai15" class="hidden"> Kể cho mọi người nghe một câu chuyện về lần cuối cùng bạn đã hối hận vì uống quá nhiều.</span>
+            <span id="bai16" class="hidden"> Uống một ngụm nếu bạn đã từng ăn một loại thức ăn kỳ quặc khi say rượu.</span>
+            <span id="bai17" class="hidden"> Đọc một tin nhắn gần đây nhất trong hộp thư đến của bạn.</span>
+            <span id="bai18" class="hidden"> Uống hai ngụm nếu bạn từng tỏ tình với người mà bạn không nên tỏ tình.</span>
+            <span id="bai19" class="hidden"> Hát một đoạn nhạc yêu thích của bạn.</span>
+            <span id="bai20" class="hidden"> Uống một ngụm nếu bạn từng bị cảnh sát mời uống rượu.</span>
+            <span id="bai21" class="hidden"> Nói ra ba điều bạn thích ở người chơi bên trái của bạn.</span>
+            <span id="bai22" class="hidden"> Uống một ngụm nếu bạn đã từng tham gia một trò chơi uống rượu trong công ty.</span>
+            <span id="bai23" class="hidden"> Chia sẻ một khoảnh khắc hài hước khi say rượu.</span>
+            <span id="bai24" class="hidden"> Uống một ngụm nếu bạn từng uống rượu từ một chai trực tuyến.</span>
+            <span id="bai25" class="hidden"> Đặt một câu hỏi đố vui cho mọi người.</span>
+            <span id="bai26" class="hidden"> Uống một ngụm nếu bạn đã từng gặp một nghệ sĩ nổi tiếng khi say rượu.</span>
+            <span id="bai27" class="hidden"> Kể cho mọi người nghe về một cuộc phiêu lưu bạn đã có khi say rượu.</span>
+            <span id="bai28" class="hidden"> Uống một ngụm nếu bạn đã từng uống rượu trong một buổi họp gia đình.</span>
+            <span id="bai29" class="hidden"> Hỏi một người chơi bên cạnh bạn về điểm yếu của họ.</span>
+            <span id="bai30" class="hidden"> Uống một ngụm nếu bạn đã từng gửi một tin nhắn yêu thương khi say rượu.</span>
+            <span id="bai31" class="hidden"> Chia sẻ một điều bạn muốn thay đổi về bản thân.</span>
+            <span id="bai32" class="hidden"> Uống một ngụm nếu bạn từng bị cảnh sát phạt vì lái xe khi say rượu.</span>
+            <span id="bai33" class="hidden"> Mô phỏng một tình huống hài hước trong cuộc sống hàng ngày.</span>
+            <span id="bai34" class="hidden"> Uống một ngụm nếu bạn đã từng tham gia một trò chơi uống rượu trên mạng xã hội.</span>
+            <span id="bai35" class="hidden"> Kể cho mọi người biết về lần cuối cùng bạn đã bị cảm xúc khi say rượu.</span>
+            <span id="bai36" class="hidden"> Uống một ngụm nếu bạn từng làm bừa khi say rượu trong một cửa hàng.</span>
+            <span id="bai37" class="hidden"> Đặt một câu hỏi nhạy cảm cho người chơi bên phải của bạn.</span>
+            <span id="bai38" class="hidden"> Uống một ngụm nếu bạn đã từng uống quá mức trong một buổi tiệc.</span>
+            <span id="bai39" class="hidden"> Hát một bài hát mà bạn thích nhưng không thể hát tốt.</span>
+            <span id="bai40" class="hidden"> Uống một ngụm nếu bạn từng uống rượu từ một thùng rượu.</span>
+            <span id="bai41" class="hidden"> Chia sẻ một kỷ niệm tốt nhất khi say rượu của bạn.</span>
+            <span id="bai42" class="hidden"> Uống một ngụm nếu bạn đã từng dùng một biệt danh khi say rượu.</span>
+            <span id="bai43" class="hidden"> Nói ra ba điều bạn không thích ở người chơi bên trái của bạn.</span>
+            <span id="bai44" class="hidden"> Uống một ngụm nếu bạn từng tham gia một trò chơi uống rượu tại một quán bar.</span>
+            <span id="bai45" class="hidden"> Kể cho mọi người nghe về một lần bạn đã tỏ tình khi say rượu.</span>
+            <span id="bai46" class="hidden"> Uống một ngụm nếu bạn từng tham gia một trò chơi uống rượu tại một buổi tiệc.</span>
+            <span id="bai47" class="hidden"> Đặt một câu hỏi đố vui liên quan đến rượu.</span>
+            <span id="bai48" class="hidden"> Uống một ngụm nếu bạn đã từng uống quá nhiều và gây hại cho bản thân.</span>
+            <span id="bai49" class="hidden"> Chia sẻ một khoảnh khắc đáng nhớ nhất khi say rượu.</span>
+            <span id="bai50" class="hidden"> Uống một ngụm nếu bạn từng uống rượu trong một chuyến du lịch.</span>
+            <span id="bai51" class="hidden"> Hỏi một người chơi bên cạnh bạn về điểm mạnh của họ.</span>
+            <span id="bai52" class="hidden"> Uống một ngụm nếu bạn đã từng gửi tin nhắn sai người khi say rượu.</span>
+            <span id="bai53" class="hidden"> Kể cho mọi người biết về lần cuối cùng bạn đã uống quá mức và gặp hậu quả của nó.</span>
+        </div> 
+    </form>
+    <div>
+        <button onclick="randomNumber()">Rút bài</button>
+    </div>
+    
+    <script>
+        function randomNumber() {
+            var randomNumber = Math.floor(Math.random() * 50) + 1; // Random số từ 1 đến 3
+
+            var luatchoi = document.getElementById('luatchoi');
+            var content = document.getElementById('content');
+            var a1 = document.getElementById('bai1');      
+            var a2 = document.getElementById('bai2');
+            var a3 = document.getElementById('bai3');
+            var a4 = document .getElementById('bai4');
+            var a5 = document .getElementById('bai5');
+            var a6 = document .getElementById('bai6');
+            var a7 = document .getElementById('bai7');
+            var a8 = document .getElementById('bai8');
+            var a9 = document .getElementById('bai9');
+            var a10 = document .getElementById('bai10');
+            var a11 = document .getElementById('bai11');
+            var a12 = document .getElementById('bai12');
+            var a13 = document .getElementById('bai13');
+            var a14 = document .getElementById('bai14');
+            var a15 = document .getElementById('bai15');
+            var a16 = document .getElementById('bai16');
+            var a17 = document .getElementById('bai17');
+            var a18 = document .getElementById('bai18');
+            var a19 = document .getElementById('bai19');
+            var a20 = document .getElementById('bai20');
+            var a21 = document .getElementById('bai21');
+            var a22 = document .getElementById('bai22');
+            var a23 = document .getElementById('bai23');
+            var a24 = document .getElementById('bai24');
+            var a25 = document .getElementById('bai25');
+            var a26 = document .getElementById('bai26');
+            var a27 = document .getElementById('bai27');
+            var a28 = document .getElementById('bai28');
+            var a29 = document .getElementById('bai29');
+            var a30 = document .getElementById('bai30');
+            var a31 = document .getElementById('bai31');
+            var a32 = document .getElementById('bai32');
+            var a33 = document .getElementById('bai33');
+            var a34 = document .getElementById('bai34');
+            var a35 = document .getElementById('bai35');
+            var a36 = document .getElementById('bai36');
+            var a37 = document .getElementById('bai37');
+            var a38 = document .getElementById('bai38');
+            var a39 = document .getElementById('bai39');
+            var a40 = document .getElementById('bai40');
+            var a41 = document .getElementById('bai41');
+            var a42 = document .getElementById('bai42');
+            var a43 = document .getElementById('bai43');
+            var a44 = document .getElementById('bai44');
+            var a45 = document .getElementById('bai45');
+            var a46 = document .getElementById('bai46');
+            var a47 = document .getElementById('bai47');
+            var a48 = document .getElementById('bai48');
+            var a49 = document .getElementById('bai49');
+            var a50 = document .getElementById('bai50');
+            var a51 = document .getElementById('bai51');
+            var a52 = document .getElementById('bai52');
+            var a53 = document .getElementById('bai53');
+      
+
+
+            luatchoi.style.display = 'inline';
+            content.style.display = 'inline';
+            a1.style.display = 'none';
+            a2.style.display = 'none';
+            a3.style.display = 'none';
+            a4.style.display = 'none';
+            a5.style.display = 'none';
+            a6.style.display = 'none';
+            a7.style.display = 'none';
+            a8.style.display = 'none';
+            a9.style.display = 'none';
+            a10.style.display = 'none';
+            a11.style.display = 'none';
+            a12.style.display = 'none';
+            a13.style.display = 'none';
+            a14.style.display = 'none';
+            a15.style.display = 'none';
+            a16.style.display = 'none';
+            a17.style.display = 'none';
+            a18.style.display = 'none';
+            a19.style.display = 'none';
+            a20.style.display = 'none';
+            a21.style.display = 'none';
+            a22.style.display = 'none';
+            a23.style.display = 'none';
+            a24.style.display = 'none';
+            a25.style.display = 'none';
+            a26.style.display = 'none';
+            a27.style.display = 'none';
+            a28.style.display = 'none';
+            a29.style.display = 'none';
+            a30.style.display = 'none';
+            a31.style.display = 'none';
+            a32.style.display = 'none';
+            a33.style.display = 'none';
+            a34.style.display = 'none';
+            a35.style.display = 'none';
+            a36.style.display = 'none';
+            a37.style.display = 'none';
+            a38.style.display = 'none';
+            a39.style.display = 'none';
+            a40.style.display = 'none';
+            a41.style.display = 'none';
+            a42.style.display = 'none';
+            a43.style.display = 'none';
+            a44.style.display = 'none';
+            a45.style.display = 'none';
+            a46.style.display = 'none';
+            a47.style.display = 'none';
+            a48.style.display = 'none';
+            a49.style.display = 'none';
+            a50.style.display = 'none';
+            a51.style.display = 'none';
+            a52.style.display = 'none';
+            a53.style.display = 'none';
+     
+
+            
+            if (randomNumber === 1) {
+                a1.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 2) {
+                a2.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 3) {
+                a3.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 4) {
+                a4.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 5) {
+                a5.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 6) {
+                a6.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 7) {
+                a7.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 8) {
+                a8.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 9) {
+                a9.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 10) {
+                a10.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 11) {
+                a11.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 12) {
+                a12.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 13) {
+                a13.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 14) {
+                a14.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 15) {
+                a15.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 16) {
+                a16.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 17) {
+                a17.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 18) {
+                a18.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 19) {
+                a19.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 20) {
+                a20.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 21) {
+                a21.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 22) {
+                a22.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 23) {
+                a23.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 24) {
+                a24.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 25) {
+                a25.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 26) {
+                a26.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 27) {
+                a27.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }
+            else if (randomNumber === 28) {
+                a28.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 29) {
+                a29.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 30) {
+                a30.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 31) {
+                a31.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 32) {
+                a32.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }
+            else if (randomNumber === 33) {
+                a33.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 34) {
+                a34.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 35) {
+                a35.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 36) {
+                a36.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 37) {
+                a37.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }
+            else if (randomNumber === 38) {
+                a38.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 39) {
+                a39.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 40) {
+                a40.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 41) {
+                a41.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 42) {
+                a42.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }
+            else if (randomNumber === 43) {
+                a43.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 44) {
+                a44.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 45) {
+                a45.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 46) {
+                a46.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 47) {
+                a47.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }
+            else if (randomNumber === 48) {
+                a48.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 49) {
+                a49.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            } else if (randomNumber === 50) {
+                a50.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }
+            else if (randomNumber === 51) {
+                a51.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 52) {
+                a52.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }else if (randomNumber === 53) {
+                a53.style.display = 'inline';
+                luatchoi.style.display = 'none';
+                content.style.display = 'none';
+            }
+            var form = document.querySelector('.bai');
+            form.classList.add('rotate-form');
+            setTimeout(function() {
+                form.classList.remove('rotate-form');
+            }, 3000);
+        }
+        
+    </script>
+    
+</body>
+</html>

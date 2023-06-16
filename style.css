@@ -1,0 +1,54 @@
+.bai {
+    /* Các thuộc tính CSS khác */
+    position: fixed;
+    width: 500px;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-51%);
+    background: linear-gradient(40deg, #4caf5014, #ffeb3b17);
+    border-radius: 10px;
+}
+ button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px;
+gap: 10px;
+
+position: absolute;
+width: 500px;
+
+left: 33%;
+
+top: 350px;
+
+/* Theme/1 */
+
+background: #ED712E;
+border-radius: 8px;
+}
+.hidden {
+    display: none;
+}
+#luatchoi {
+    font-size: 30px;
+}
+#content {
+    font-size: 20px;
+}
+#bai1 #bai2 #bai3{
+    font-size: 24px;
+}
+span{
+    color: #222222;
+    font-size: 24px;
+}
+.rotate-form {
+    animation: rotate 3s;
+}
+
+@keyframes rotate {
+    0% { transform: translateX(-100%); opacity: 0; }
+    100% { transform: translateX(0%); opacity: 1; }
+}
